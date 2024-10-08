@@ -10,41 +10,48 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://fardindev.me//crypto-info-api'
+      src: 'https://opengraph.githubassets.com/1/fardin-developer/TRCATS',
+      link: 'https://trcats-front.vercel.app/index.html',
+      repo: 'https://github.com/fardin-developer/TRCATS'
     },
     {
       id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://fardindev.me//Web-Postman'
+      src: 'https://opengraph.githubassets.com/1/fardin-developer/yt-host',
+      link: 'https://teachers-admin-panel.vercel.app/',
+      repo: 'https://attendence-taker-with-location.vercel.app/'
     },
     {
       id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://fardindev.me//NASA-APOD'
+      src: 'https://opengraph.githubassets.com/1/fardin-developer/PlaylistTool',
+      link: 'https://github.com/fardin-developer/PlaylistTool',
+      repo: 'https://github.com/fardin-developer/yt-host'
     },
     {
       id: 4,
-      src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://fardindev.me//Wave-Portal'
+      src: 'https://opengraph.githubassets.com/1/fardin-developer/ISINE-CanteenFront',
+      link: 'https://isine-canteen-front.vercel.app/',
+      repo: 'https://github.com/fardin-developer/ISINE-CanteenFront'
     },
     {
       id: 5,
-      src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://fardindev.me//NFT-Portal'
+      src: 'https://opengraph.githubassets.com/1/fardin-developer/ISINE-Canteen',
+      link: 'https://isine-canteen-admin.vercel.app/',
+      repo: 'https://github.com/fardin-developer/ISINE-Canteen'
     },
     {
       id: 6,
-      src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://fardindev.me//IP-Address-Tracker'
+      src: 'https://opengraph.githubassets.com/1/fardin-developer/chronos',
+      link: 'https://github.com/fardin-developer/chronos',
+      repo: 'https://api.trcats.co.in/doc/'
     },
+    {
+      id: 7,
+      src: 'https://opengraph.githubassets.com/1/fardin-developer/chronos-frontend',
+      link: 'https://github.com/fardin-developer/chronos-frontend',
+      repo: 'https://github.com/fardin-developer/chronos-frontend'
+    }
   ];
+  
 
   return (
     <div
@@ -54,7 +61,7 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>

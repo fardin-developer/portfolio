@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/rahulkarda2002",
+      href: "https://www.linkedin.com/in/fardin-mustaque-28996a230/",
       style: "rounded-tr-md",
     },
     {
@@ -22,17 +22,17 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://fardindev.me/",
+      href: "https://github.com/fardin-developer",
     },
-    {
-      id: 3,
-      child: (
-        <>
-          Email <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "mailto:rahulkarda2002@gmail.com",
-    },
+    // {
+    //   id: 3,
+    //   child: (
+    //     <>
+    //       Email <HiOutlineMail size={30} />
+    //     </>
+    //   ),
+    //   href: "mailto:fardindeveloper1@gmail.com",
+    // },
     {
       id: 4,
       child: (
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: resume,
+      href: 'https://drive.google.com/file/d/1PZ3vqqXkMiDJwOjg3lLGuYeJgJVRQlOT/view?usp=sharing',
       download: true,
     },
     {
@@ -50,7 +50,7 @@ const SocialLinks = () => {
           Twitter <FaTwitter size={30} />
         </>
       ),
-      href: "https://twitter.com/rahulkarda2002",
+      href: "https://twitter.com/fardin_dev",
       style: "rounded-br-md",
     },
   ];
